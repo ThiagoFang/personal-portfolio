@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --background-color: #0A0A0A;
+  --gray-background-color: #121214;
+  --font-color: #FFF;
+  --font-subcolor: #5B5B5B;
+  --main-color: #0BD361;
+  --sub-main-color: #8257E5;
+  --border-color: #2C2C2D;
+  --shadow-color: rgba(0, 0, 0, 0.25);;
+  --transparent: rgba(0, 0, 0, 0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  color: #FFF;
+  background-color: var(--background-color);
+  font-family: 'Roboto', sans-serif;
+  overflow-X: hidden;
+  width: 100vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body::-webkit-scrollbar {
+  width: 17px;
 }
 
-.App-link {
-  color: #61dafb;
+body::-webkit-scrollbar-track {
+  background: var(--background-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body::-webkit-scrollbar-thumb {
+  background-color: var(--font-subcolor);    
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
 }
