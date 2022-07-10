@@ -9,11 +9,11 @@ export const Container = styled.div`
     border: 1px solid var(--border-color);
     border-radius: 30px;
     box-shadow: 0 5px 20px #000;
-    transition: .3s;
+    transition: .5s;
     overflow-x: hidden;
 
     &:hover{
-        height: 430px;
+        height: 450px;
         transform: scale(1.03);
 
         .buttonArea{

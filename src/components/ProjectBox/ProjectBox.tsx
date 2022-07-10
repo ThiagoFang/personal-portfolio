@@ -23,20 +23,24 @@ export const ProjectBox = ({name,description,links,techs,url}:ProjectsType) => {
                     ))}
                 </C.BoxTechs>
                 <C.ButtonArea className='buttonArea'>
-                    <Button 
-                        isALink={true}
-                        link={links.github}
-                        title='GitHub'
-                        icon='github'
-                        buttonSmall={true}
-                    />
-                    <Button 
-                        isALink={true}
-                        link={links.page}
-                        title='Acessar'
-                        icon='paper'
-                        buttonSmall={true}
-                    />
+                    {links.github &&
+                        <Button 
+                            isALink={true}
+                            link={links.github}
+                            title='GitHub'
+                            icon='github'
+                            buttonSmall={true}
+                        />
+                    }
+                    {links.page &&
+                        <Button 
+                            isALink={true}
+                            link={links.page}
+                            title='Acessar'
+                            icon='paper'
+                            buttonSmall={true}
+                        />
+                    }
                 </C.ButtonArea>
             </C.InfoArea>
         </C.Container>

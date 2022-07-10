@@ -5,7 +5,7 @@ export type ProjectsType = {
     url: string,
     links: {
         github: string,
-        page: string
+        page?: string
     },
     techs: string[]
 }
@@ -72,13 +72,23 @@ export const ProjectsInfo: ProjectsType[] = [
         techs: ['html', 'css', 'javascript', 'typescript', 'react']
     },
     {
-        name: 'To-Do List', 
-        description: 'Uma Lista de Tarefas com algums elementos de RPG.',
-        url: 'todo',
+        name: 'React RPG Game', 
+        description: 'Um simples "jogo" de RPG em React.',
+        url: 'rpggame',
         links: {
-            github: 'https://github.com/ThiagoFang/ToDoList-RPG-Elements',
-            page: 'https://thiagofang.github.io/ToDoList-RPG-Elements/'
+            github: 'https://github.com/ThiagoFang/rpggame',
+            page: 'https://rpggame-five.vercel.app/'
         },
-        techs: ['html', 'css', 'javascript']
-    }
+        techs: ['html', 'css', 'javascript', 'typescript','react']
+    },
+    {
+        name: 'Multiple Steps Form', 
+        description: 'Um Formulário de multiplos passos em React',
+        url: 'multiform',
+        links: {
+            github: 'https://github.com/ThiagoFang/react-multiform',
+        },
+        techs: ['html', 'css', 'javascript', 'typescript','react']
+    },
+    
 ]
