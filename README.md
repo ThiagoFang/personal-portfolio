@@ -13,14 +13,12 @@
 Esse é o Projéto do meu Portfolio pessoal, aqui tem informações sobre mim e meus projetos.
 
 </div>
-<hr/>
 <div align="center">
 
 ## 📋**My Experience**
 Essa foi uma das melhores expoeriências que tive, foi um desafio imaginar esse projéto tanto em código quanto em layout, serviu muito para aprofundar a base de conhecimento em React e Typescript.
 
 </div>
-<hr style=""/>
 <div>
 
 ## 🔧 **Techs**

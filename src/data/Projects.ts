@@ -82,6 +82,17 @@ export const ProjectsInfo: ProjectsType[] = [
         techs: ['html', 'css', 'javascript', 'typescript','react']
     },
     {
+        name: 'Fighting Game', 
+        description: 'Um Jogo de luta em HTML e Javascript',
+        url: 'fighting',
+        links: {
+            github: 'https://github.com/ThiagoFang/fighting-game-javascript',
+            page: 'https://thiagofang-fighting-game.netlify.app/'
+        },
+        techs: ['html', 'css', 'javascript']
+    },
+    
+    {
         name: 'Multiple Steps Form', 
         description: 'Um Formulário de multiplos passos em React',
         url: 'multiform',
